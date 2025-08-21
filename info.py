@@ -49,7 +49,7 @@ DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://yogedrasama:D8oNvWFxBw
 DATABASE_NAME = environ.get("DATABASE_NAME", "mzfilestore")
 
 # Files index database url
-FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://yogedrasama:D8oNvWFxBws2et6W@cluster0.5m2w6n8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+FILES_DATABASE = environ.get("FILES_DATABASE", "-1002124208809")
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "Mz_files")
 
 # Other Channel's
