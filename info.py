@@ -34,15 +34,15 @@ USERNAME = environ.get("USERNAME", "Yogiraaj")  # ADMIN USERNAME
 # Database Channel
 CHANNELS = [
     int(ch) if id_pattern.search(ch) else ch
-    for ch in environ.get("CHANNELS", "-1002124208809").split()
+    for ch in environ.get("CHANNELS", "-1003008349198").split()
 ]
 
 # ForceSub Channel & Log Channels
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002937430915"))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1003043479551"))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002606471643"))
-LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002606471643"))
-LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002606471643"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002624913071"))
+LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002624913071"))
+LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002624913071"))
 
 # MongoDB
 DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://yogedrasama:D8oNvWFxBws2et6W@cluster0.5m2w6n8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -50,12 +50,12 @@ DATABASE_NAME = environ.get("DATABASE_NAME", "mzfilestore")
 
 # Files index database url
 FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://yogedrasama:D8oNvWFxBws2et6W@cluster0.5m2w6n8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-COLLECTION_NAME = environ.get("COLLECTION_NAME", "Mz_files")
+COLLECTION_NAME = environ.get("COLLECTION_NAME", "Vz_files")
 
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002387745957"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
-request_channel = environ.get("REQUEST_CHANNEL", "-1002606471643")
+request_channel = environ.get("REQUEST_CHANNEL", "-1002624913071")
 REQUEST_CHANNEL = (
     int(request_channel)
     if request_channel and id_pattern.search(request_channel)
