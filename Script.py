@@ -32,8 +32,8 @@ class script(object):
 
 <blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/MzBotz'>Mz Botz &lt;/&gt;</a></b></blockquote>"""
 
-    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : Mz Filter Bot
-‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/MzBotz'>Mz Botz &lt;/&gt;</a>
+    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : Vz Filter Bot
+‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/aonemarathi'>💞ʏ☢𝕘Ꭵℝⱥj &lt;/&gt;</a>
 ‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ
 ‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ
