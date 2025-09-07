@@ -55,7 +55,7 @@ COLLECTION_NAME = environ.get("COLLECTION_NAME", "Vz_files")
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002387745957"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
-request_channel = environ.get("REQUEST_CHANNEL", "-1002624913071")
+request_channel = environ.get("REQUEST_CHANNEL", "-1003014023132")
 REQUEST_CHANNEL = (
     int(request_channel)
     if request_channel and id_pattern.search(request_channel)
