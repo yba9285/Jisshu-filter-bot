@@ -1537,7 +1537,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "ʀᴇᴘᴏ", url="https://to.me/aonemarathi"
+                    "ʀᴇᴘᴏ", url="https://t.me/aonemarathi"
                 )
             ],
             [
