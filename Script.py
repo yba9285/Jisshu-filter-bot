@@ -117,7 +117,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}</b>"""
+    FILE_CAPTION = """<b><a href="https://t.me/goldeneramovies">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/mzbotz">[ MZBOTZ ]</a></b>"""
 
     ALRT_TXT = """ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ sᴇᴀʀᴄʜɪɴɢ !?"""
 
